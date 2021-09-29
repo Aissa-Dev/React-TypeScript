@@ -1,5 +1,5 @@
 type OscarProps = {
-  children: React.ReactNode
+  children: React.ReactNode;
 };
 
 export const Oscar = (props: OscarProps) => {
