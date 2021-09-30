@@ -1,12 +1,10 @@
-import React from "react";
 import "./App.css";
-import { LogedIn } from "./components/state/LogedIn";
-import { User } from "./components/state/User";
+import { Counter } from "./components/Counter";
+
 function App() {
   return (
     <div className="App">
-      <LogedIn />
-      <User />
+      <Counter />
     </div>
   );
 }
