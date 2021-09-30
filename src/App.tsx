@@ -1,18 +1,12 @@
 import React from "react";
 import "./App.css";
-import { Container } from "./components/Container";
-
+import { LogedIn } from "./components/state/LogedIn";
+import { User } from "./components/state/User";
 function App() {
   return (
     <div className="App">
-      <Container
-        styles={{
-          color: "green",
-          padding: "1rem",
-          border: "1px solid black",
-          fontWeight: "bolder"
-        }}
-      />
+      <LogedIn />
+      <User />
     </div>
   );
 }
